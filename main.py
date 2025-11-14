@@ -7,10 +7,11 @@ def main(page:Page):
     page.add(
         Text(value="wellcome to this app"),
         Text(value="this app developed by QURAIDY"),
-        Image(src="assets/logo.png",width=230)
+        Image(src="logo.png",width=230)
     )
 
 
     page.update()
 
 app(main)
+
